@@ -1,0 +1,78 @@
+site_name: Mobile Dev Builder’s Companion Book
+site_url:  https://mcklay.github.io/mobile-dev-companion-book/
+site_author: Clay Mark Sarte
+site_description: From React Native to Expo & EAS — a guide to building and deploying mobile apps
+
+theme:
+  name: material
+  palette:
+    - scheme: default
+      primary: blue
+      accent: light blue
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+    - scheme: slate
+      primary: deep purple
+      accent: indigo
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+  features:
+    - navigation.sections
+    - navigation.expand
+    - content.code.copy
+    - content.code.annotate
+    - search.suggest
+    - search.highlight
+  hide:
+    - toc
+
+nav:
+  - Table of Contents: index.md
+
+  - "":
+      - "&nbsp; Preface": Preface.md
+      - "&nbsp;&nbsp; 📖 Part I: Foundations of Cross-Platform Mobile Development": PartI_overview.md
+      - "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Chapter 1": chapter1.md
+      - "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Chapter 2": chapter2.md
+
+      - "&nbsp;&nbsp; 📖 Part II: Getting Started with Your First Project": PartII_overview.md
+      - "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Chapter 3": chapter3.md
+      - "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Chapter 4": chapter4.md
+
+      - "&nbsp;&nbsp; 📖 Part III: Surviving Dependency Hell": PartIII_overview.md
+      - "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Chapter 5": chapter5.md
+      - "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Chapter 6": chapter6.md
+
+      - "&nbsp;&nbsp; 📖 Part IV: Building Natively with EAS": PartIV_overview.md
+      - "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Chapter 7": chapter7.md
+      - "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Chapter 8": chapter8.md
+      - "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Chapter 9": chapter9.md
+
+      - "&nbsp;&nbsp; 📖 Part V: Practical Lessons and Next Steps": PartV_overview.md
+      - "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Chapter 10": chapter10.md
+      - "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Chapter 11": chapter11.md
+
+      - "&nbsp;&nbsp; 📖 Appendices": appendices.md
+
+markdown_extensions:
+  - toc:
+      permalink: true
+  - admonition
+  - footnotes
+  - codehilite
+  - pymdownx.superfences
+  - pymdownx.highlight
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_generator: !!python/name:pymdownx.emoji.to_svg
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/McKlay
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/clay-mark-sarte-283855147/
