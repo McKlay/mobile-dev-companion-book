@@ -28,15 +28,15 @@ hide:
 
 #### Part I – [Foundations of Cross-Platform Mobile Development](PartI_overview.md)
 
-     Chapter 1: [Why Mobile Feels Different from Web](chapter1.md)  
-        1.1 Web vs. mobile mindset shift  
-        1.2 React Native as the bridge between JavaScript and native UI  
-        1.3 Understanding Expo’s role  
+     Chapter 1: [Why Mobile Feels Different from Web](chapter1.md)  
+        1.1 Web vs. mobile mindset shift  
+        1.2 React Native as the bridge between JavaScript and native UI   
+        1.3 Understanding Expo’s role
 
-     Chapter 2: [The Expo Ecosystem](chapter2.md)  
-        2.1 Expo SDK and its prebuilt modules  
-        2.2 Metro bundler explained  
-        2.3 Expo Go vs Dev Client vs Production  
+     Chapter 2: [The Expo Ecosystem](chapter2.md)  
+        2.1 Expo SDK and its prebuilt modules  
+        2.2 Metro bundler explained   
+        2.3 Expo Go vs Dev Client vs Production
 
 ---
 
